@@ -314,7 +314,7 @@ public struct AlertToast: View{
                 }
             }
             .padding(.horizontal, 24)
-            .padding(.vertical, 16)
+            .padding(.vertical, 8)
             .frame(minHeight: 50)
             .alertBackground(custom?.backgroundColor ?? nil)
             .clipShape(Capsule())
@@ -322,7 +322,7 @@ public struct AlertToast: View{
             .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 6)
             .compositingGroup()
         }
-        .padding(.top)
+        .padding(.top, 50)
     }
     
     ///Alert View
