@@ -322,7 +322,7 @@ public struct AlertToast: View{
             .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 6)
             .compositingGroup()
         }
-        .padding(.top, 32)
+        .padding(.top, 24)
     }
     
     ///Alert View
